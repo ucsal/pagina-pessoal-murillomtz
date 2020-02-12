@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mtz HTML5</title>
+</head>
+
+<body>
+  <h2>Passa bola</h2>
+  <h1>Romario</h1>
+  <style>
+    h2 {
+
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 60pt;
+      color: blueviolet;
+      text-shadow: 4px 4px 2px palevioletred;
+    }
+
+    h1 {
+      font-family: Arial;
+      font-size: 30pt;
+      color: red;
+      text-shadow: 2px 2px 20px yellowgreen;
+    }
+  </style>
+</body>
+
+
+</html>
