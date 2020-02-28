@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-    background-image: url("fundo01.png");
+    background-image: url("../fundo01.png");
     color: whitesmoke;
     background-color: black;
     -webkit-background-size: cover;
