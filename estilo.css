@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body {
+    background-image: url("../_imagens/fundo01.png");
+    color: whitesmoke;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+div#inicial {
+    text-align: center;
+}
+
+
+/*Menu pagina inicial "main"*/
+
+nav#menuMain {
+    display: block;
+}
+
+nav#menuMain ul {
+    /*Tirando os marcadores.*/
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav#menuMain li {
+    /* cada item ficar no lado do outro*/
+    display: inline-block;
+    background-color: whitesmoke;
+    /* cria um espaço nas bordas*/
+    padding: 10px;
+    /*espaço fora do objeto "espaçamento"*/
+    margin: 20px;
+}
