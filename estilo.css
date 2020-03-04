@@ -43,10 +43,10 @@ img#shape {
 header#cabecalho img#icone {
     /* Position absolute para ter uma pozição absoluta e nao ficar presa ao container*/
     position: absolute;
-    left: 500px;
-    top: 30px;
-    max-width: 200px;
-    max-height: 150px;
+    left: 15em;
+    top: 1em;
+    max-width: 10em;
+    max-height: 10em;
     width: auto;
     height: auto;
 }
