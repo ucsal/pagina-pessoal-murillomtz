@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
-    background-image: url("../fundo01.png");
-    color: whitesmoke;
+    background-image: url("fundo01.png");
+    color: black;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -16,6 +16,43 @@ p {
 
 div#inicial {
     text-align: center;
+    width: 900px;
+    background-color: bisque;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(243, 243, 242, 0.466);
+    /*Afastar os objetos das bordas com 10 px*/
+    padding: 100px 10px 10px 10px;
+}
+
+header#cabecalho {
+    /*Fazer uma linha como dicizoria*/
+    border-bottom: 1px #606060 solid;
+    /*altuda do cabeçalho*/
+    height: 90px;
+}
+
+img#shape {
+    left: 500px;
+    top: 30px;
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+header#cabecalho img#icone {
+    /* Position absolute para ter uma pozição absoluta e nao ficar presa ao container*/
+    position: absolute;
+    left: 500px;
+    top: 30px;
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+header#cabecalho p#titulo {
+    height: -50px;
 }
 
 
@@ -39,4 +76,38 @@ nav#menuMain li {
     padding: 10px;
     /*espaço fora do objeto "espaçamento"*/
     margin: 20px;
+}
+
+figure.shapeStreet {
+    border: 8px solid bisque;
+    ;
+    /*Ciando sombra ndfsda legenda*/
+    box-shadow: 1px 1px 4px red;
+    position: relative;
+}
+
+figure.shapeStreet img#shape {
+    /*Irá fazer a imagem da tag IMG*/
+    width: 15%;
+    height: 15%;
+}
+
+figure.shapeStreet figcaption {
+    /*fazendo a legenda desaparecer para no hover aparecer quando o mouse passar por  cima*/
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    /* colocar uma transaparencia com o rgba*/
+    background-color: rgba(0, 0, 0, 0.4);
+    color: aliceblue;
+    /*criar espaço dentro da legenda*/
+    padding: 10px;
+    /*quando o padding ultrapassar a borda*/
+    box-sizing: border-box;
+    /**/
+    transition: opacity 1s;
+}
+
+figure.foto-shapeStreet:hover figcaption {
+    opacity: 1;
 }
